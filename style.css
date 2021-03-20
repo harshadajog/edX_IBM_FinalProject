@@ -1,4 +1,72 @@
-body {background-color:tan;}
-h1{color:green;}
+
+
+body{
+	background-color:black; 
+  font-family: arial;
+  width: 80%;
+  height: 80%;  
+ text-align: left;
+}	
+
+.maindiv {
+  margin-top: 20px;
+  margin-left: 50px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 25px;
+  width: 300px
+  height: 80%;
+}
+
+
+#simpleForm {
+  margin-left: 50px;
+
+}
+
+h1{
+	color:grey;
+	font-family: verdana;
+}
+
+label {
+    width: 100px;
+   display: inline-block;
+   margin-bottom: 10px;
+}
+ 
+input {
+  margin-bottom: 20px;
+}
+
+#myRange{
+  height: 10px;
+  width:120px;
+  border-radius: 25px;
+}
+#myRange input::-moz-range-progress{
+  height: 10px;
+  border-radius: 25px;
+  background: #3498db;
+}
+
+#myRange input::-moz-range-thumb{
+  height:20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 4px solid #3498db;
+  background: white;
+  -webkit-appearance: none;
+}
+
+.result {
+  padding-top: 12px;
+}
+
+footer {
+  margin-top: 12px;
+}
+
 
 
