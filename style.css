@@ -3,8 +3,8 @@
 body{
 	background-color:black; 
   font-family: arial;
-  width: 80%;
-  height: 80%;  
+  width: 90%;
+  height: 90%;  
  text-align: left;
 }	
 
@@ -15,7 +15,7 @@ body{
   color: black;
   padding: 10px;
   border-radius: 25px;
-  width: 300px
+  width: 80%;
   height: 80%;
 }
 
